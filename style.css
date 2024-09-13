@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0px;
+    background-color:#505d78 ;
+}
+h1{
+    text-align: center;
+
+}
+form{
+    margin: auto;
+    max-width:600px ;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    padding: 20px;
+}
+fieldset{
+    border: 2px solid #227694;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom:10px;
+    background-color: aliceblue;
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+input,textarea{
+    margin-top: 4px;
+    padding: 10px;
+width: calc(100% - 7px);
+border-radius: 4px;
+border-radius: 1px solid skyblue;
+}
+button{
+    display: block;
+    background-color: rgb(16, 125, 125);
+   margin-top: 10px;
+    font-size: 18px;
+    width: 100%;
+    padding: 10px;
+    border: 1px soild black;
+    border-radius: 4px;
+}
+button:hover{
+    background-color: aqua;
+}
+#profilePicture{
+display: block;
+margin:  0 auto;
+border: 2px solid  #227694;
+ /* border-radius: 500%; */
+ object-fit: cover;
+ margin-top: 20px;
+ /* width: 150px; */
+ /* height: 150px; */
+}
+#resumeOutput{
+max-width: 600px;
+margin: auto;
+padding: 20px;
+border: 2px solid #3498bd;
+border-radius: 8px;
+background-color: aliceblue;
+}
+#resumeOutput  h2{
+color: #2c3e56;
+}
